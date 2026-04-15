@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "[percy] Running Percy visual tests after commit..."
+PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 PERCY_BRANCH=feature/percy-snapshot-capture npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
