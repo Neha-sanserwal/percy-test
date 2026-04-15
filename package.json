@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "visual-regression": "percy exec --config .percy.yml -- playwright test --reporter=dot --grep '@visual-test'",
+    "visual-regression": "PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 percy exec --config .percy.yml -- playwright test --reporter=dot --grep '@visual-test'",
+    "snapshot": "PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 percy snapshot snapshots.yml",
     "tests": "npx playwright test",
     "tests-headed": "npx playwright test --headed"
   },
@@ -13,5 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@percy/cli": "1.29.2"
+  },
+  "dependencies": {
+    "@percy/playwright": "^1.1.0",
+    "@playwright/test": "^1.59.1"
   }
 }
