@@ -1,0 +1,13 @@
+[
+  {
+      "name": "Sample one- Working",
+          "url":"https://australianunity--sit.sandbox.my.site.com/sso/s/verification?path=retail",
+          "waitForTimeout": 1000
+  },
+  {
+      "name": "Sample two - erroneous",
+          "url":"https://australianunity--sit.sandbox.my.site.com/CommunitiesLogin?ec=302&startURL=%2Fs%2F",
+          "waitForTimeout": 1000
+        
+  }
+]

@@ -1,0 +1,81 @@
+# .percy.yml
+# version: 2
+# sitemap:
+#   include: **/*.html
+#   exclude: []
+#   overrides: []
+# snapshot:
+#    sitemap: http://localhost:8000/sitemap.xml
+
+# version: 2
+# discovery:
+# allowedHostnames: ['fqbrfe3h5a.execute-api.us-west-2.amazonaws.com']
+# networkIdleTimeout: 750
+# disallowed-hostnames:
+#   - services-uat.test.ecomm.systems.next
+# cookies:
+#   NIQUATSESSION-ANSWERS_chunks: "2"
+#   TARGET: "https://uat.connect.nielseniq.io/reportexperience"
+#   X-NIQ-USER-INFO: eyJraWQiOiJuaXEtdG9rZW4tc2VydmljZSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiS1Yzb0lod3M5WEdxZU00dEZoT2ExQSIsInVpZCI6IjUyMDkxYTgwNDgxYzg3ZTM5OWViMTdiMzcwMDA0ZmNhIiwiem9uZWluZm8iOiJVVEMiLCJsY2wiOiJlbi1VUyIsIm9yZyI6Ik5pZWxzZW4gR2xvYmFsIiwiY3RyeSI6IkluZGlhIiwibmFtZSI6IkF1dG9tYXRpb24xIGdlbiIsIm9yZ190eXBlIjoiSW50ZXJuYWxfKEFDTmllbHNlbi9WTlUpIiwib2lkIjoiZjViZjlmMjE5OWEwMWMxM2NmODI1YzY1OWNlNzEyMTgiLCJlbWFpbCI6ImF1dG9tYXRpb24xZ2VuQG5pZWxzZW5pcS5jb20iLCJ1c2VySG9tZVN0YWNrSWQiOiJFVSIsImNsaWVudEhvbWVTdGFja0lkIjoiRVUiLCJzdWIiOiI1MjA5MWE4MDQ4MWM4N2UzOTllYjE3YjM3MDAwNGZjYSIsImF1ZCI6ImFwaTovL2RlZmF1bHQiLCJpc3MiOiJ1YXQuZ2F0ZXdheS5uaWVsc2VuaXEuaW8ubmlxdG9rZW5zZXJ2aWNlIiwianRpIjoiSUQuYTI4YjU2NTEtYWI2NS00NjRiLWE1NTgtNjY0YjE1NjY5OTFlIiwiaWF0IjoxNjk4MDYyODc5LCJleHAiOjE2OTgxMDYwNzN9.JHsE2k1fTniuYeSKq_dpGXJxBCmG3aTM-Yqa7Yb8yUbOEqyrmZ-pfdc3gP67SZV6iKn57fyAmfeHD2qUJiTAeITt2brabxwEOGbH4pEgHDx-iqhQeAPFuRsTgr7YYO0rFYpOSI9BedccATAg-lI65eJ5XKkgM3yeX3NJVcOJ2fxAmyHCA1r86s1CmcuZvuGySIrQ8IHU0bHcr2pmyLs-vzJvuOTHEak0PWgrtrUkYJgUGd8klqpXyOlgh2acehkSMuBxtQH1PG-qHvaKn1OkzgETh7a_uWOsrmRRknB9c_V6CS2BIoFUZhtbWbxyROfqJOfikJuvAoMw3SntmYij6A
+#   JSESSIONID: BF7886FF771A4CFEA3C6DF6EC69078CD
+#   NIQUATSESSION-ANSWERS_0: y1jk8b1ebzfjs47h.Q27jcm6qnhs4_84I-Wjmqsxxz8Cuq4v1Y_iQARwQd93qb6mUgtYlw1RVGK67RbN4-1fCxEvXbW4CY0auKVEl7XXfJJG2FEAQyur2pXHan_jsBzFw4lN5XK8nGAcUmvR8Iq54mBx2u2HxYN5OO_tlyzn_n2YIx4GWANzV-bubc4zu_rSsVGrJwCFXm-O-tklCGCLGvIvIToQNVNS3IOhDdZsagD6TYXCD_oSaNFzWnB_F9EpuhIimOavkDj668-jmaWYMvHnlBLnXNMDjuV7vLTx44gEH6MyICIE4C20ibrWkUZv-eeOpC2Wotr1gLqThO92GxK3dNmapED9LKX6E40EpiZMriFY51k6R7DaXOPa0ESX0yknkOkZ9rmzHVsWqJyXwlAT62184-XWwPBt8nrB-z8L_fBRFOIdxUET1Th6NKfluhOopgzLT5j0eL074f4L3cux7jXUE7sHvbvxMd377XG-CWB1esd-_ZWnizYYhECbkAWAQIx1Vh6FSDkJ4GUwQ7dLYE_AUlfrE3664481jf3QsnuwvncXfjSl7JwXMnqHXB9sRSwHTswLlVAQVitPxuHGuGVinZMKstF7NDpVogFULlCuZW0tNiFtQGFPlbLcR6Kt5CKH_-P4Es011Rsm_HoGVPqyltXcWrBA55iH8fx1H_1cfSxz8OlsOGg-rJh_N4t3A_JrLY1oeOFCo6yY7drl1gjnwPHwRetQ0tjsdTgpa2mLp09lKOMTOxDgj0_LMrlfXfN6QH691gFO1QAXiZOwvHc-mbGTAtv4OI9Um7HPQKUx088z4DccLaWWiHIbJTJvh-i7LWJx_hh1on6vBpL9L6QSlN4sg6EfTfm3ldC-h8wtxpxxEmpkED3SiZDBBTg6Em8LOdxvFhc4kjiNNgziB1eUQbk3vKsADHgg5anFm9ks-JBDMCmoyJDra5BA3ut8XhHjn_8t9JTqyx7vIF75vsP_Fis_N_snIidPBy-83USdANBMiC6CehpYWQILsMF0Q8LmINxUHBNKKXmlfLzCb-HBXBg9bvQ-ixwoQPNcQXXPOx3EmjEdKBfD1JgnXhGM2Yl__k2NQXCF7HBcmPuGly7xWq1tim6zO6dr_dky9KLowd5DFLb2Z8olZdnSool2xYKK70_3HuMOWnqfVeFQggNYJ5bUJM1NNRhPsHBVpBQKi7mYNMs1upTHC4Y8ZkVfXpvLnco2wDLZIGwZQd9a2Ox2RCoGhnmObRrdG6_10EWNOk-6n_EyUd2V33ObVrg-UNKBT_xILlQ78HfJadlIQFh-KhhZIyXvAf56vsqjR4dY2Nw3AZ-KE-fXaCgqX5r40wMtveLyRymxVqqOnGa0houj5PHnEwtty3BQxX5QurZoG81fhsOXvtXZK99LV4ol8WqkNyD7dZW4cpgE2VnY-Wd01tINOcTPCp58xaNR9XCIbUTrcyPZAa1OkA6LLmUp0KHHLdF91xKxWK5YP5ZoosS0YCSR09bAHGsXkKJNa4sjZqScWZNZ8I4DSddGs2FJ8ujOOub5zU7b7OukluIpofQviSevIayzuAFEnf7VQXJRjJZFQuYJvyMaxEEUtEpp3wfeQur7-VxnJR62D8Yvv__2KikGCH837xTCjpkSctGnyMjnHD4RWLS0An-kMlgWaQiEg4YnnVTptxr1cGes0QIVWN3lcJvGyHDmS5qnsp1XzYzEbeoYtLkfojESsDs7NooMu78PAveahxra3XAZpIFJ42Ofv6TKdTbTmTFyP8G00yXDpMW58uNCRC-JP-jjnuPZDEIKUQcWJwGeRKTL8DhiYY3Q9SaVCdj57KTjkAAYOTj2KrJb5X2s39NGQQBGxCLK8zi5jstWlBKyAMKPvEhoaPffaWsvxWOo8lAAVgaTsrwDebIsP1FcFmpbSPXgIhItujp1K_00S5DyzTUC-ewJRsiD5iqiei9teVkXU1B96MQkji2TEGR0c_SJUR-Ichgx_nvjmEslZ_nb9Hknun9YyIC4NTNzamJXhwgVaxbe1nTehXjOU98CE8PlPj7P3n3r0wZuzosXAIxyqQR6BFzSnsQj3EjzwlKcD1GqE4WmnBo8UROLary8Esnpge-PH2r3UyuhpBoPC4LnnttupMzNd_5jZQXIkoYvdClmCZxoXy2hK2OZNzA2ilrtFUPo0j_9Y5vjUd-FEHHzAbkM4025-kBMbxwn3O3hOk5QPlSvceN2cF2I4QOMxm-E5jc_tvwFQ8DyjVkPVmYquftDLeUP_kfT74pZJOkIT3icdgi5sQBlyhE2CYxLZUFHOEBRadIJsbTHWEo-50gIPxiho6zSY1TxHXxEmi06hQJaurzR3iWeKwLzn-w8cQR4SKsjiQSmojYT6ZlVkrX_aWVnPfK9JHt12fC_OQAa-dX2vX9aojH6rykXFh7TX8k0FMrQHn8yVW08tuhduDmuyOjyQrY69yK23lZ8s9nFgyNUn0ellxRNzkYS-D8t5WQgD9VDWiDLlFOOoBxHEhrlG4yv1dDZMP5JrPZ6-vFtIwD0kGylpzlcMj7B8GrJ97foQ3yjmp5i2SoGQR-8mxZl2q2AJ5YI2QNi0vSoGKM9ybBC2K8rmTKsRe61MeaFTGrsAPKi94XgYWUbg-DRfqVg73wPOst3rwv3WjlB8SD_6g82svEz0aA2mHReYDijKGx5pXvE-xQnadyfi8PXtGWadHI-rsgokHRu_44zqyAzutbTRHqcZNMeugore67OzGenGxJGbjrgGxxSGwuGZ9ypjSp_5kQg19aX6EQQBX42AAIpfho-zFI3QCT_WtCWdeBb06NouPNcYw_8vX_nle8runvKln7yKzUFTGdgTLAIwFyWayR5UAgcxbCloI-exbR4bborxW_SgD2Enf22DEL-FfzKG4iuO4hYEi5SVPtAopyJ4J2VGkPb9PJQvA79NRZmYkXYjVtvu2E1tEmfbMGtG8zNfd3-bcVhe5cMjQHeslwiuNu6rmSKZKrH7c9cTrpGp5UXJIVyhmn_0kcfK2q-6r_Q0I9TZE2p-xhk0ZgM9EZ99QCZwr5FjuIYvu-6G_bLxhmLqOzOL-0-Y2zK3fkHFf-vaSlwBpQlcZXYh5l6YNZ3c9bk1L-7GmfrEKkl3J1Zv73vfVURztfqAUlnl0Oghf3NeTpF1V-4hx1SSSaOewYgpR1sMZtZpq3ySk0tcVkISxw_aTKfsn8V8R8h2kijffjMw8wO_qXHCaw2moVwIjlZujShDurm9D3mafAcstcYYMjk3jnpalpizxf07ZYpINhVHuzDBD8vgG6ge409x7J-Csfu6jJy48NTX2kRYuIFZzqiEpbcCDhTDxVfE_gcxygWhXd4VwqqmubKWgk8ewrX2P9X0jzwnHDvbtwB3s5MTh31flFm6qlHoj-r5FidIn126uoUUpRqSLwYQUZWo7VHlo0QcsgLviw82ikeGSiUAxQ0li7oYV9bsZFG35qWoCzTfjOQq57hZJ5OaAbwY_UFgDiNz_od6yP9i0mwWCpVVPnvH_YD4jKYi18bcpEpSr9KBarw51UQ978BwKHZjXdYsX6rNRgOuDuu_5Sei4rYkGVEzkcivpgtCL3eIkjAFLYxT5zHOF4gcGmsMujO5oClKQMEZmP12TfkORH_RDU01GNp7HAmDLa12h0IN5VDg4i0cvom7fs_CqlT7xmNCeN32cvzKDwAZZpoTvrDlJHjbzF-am1KYRwW2dRB0eudGlGaya47tTnwFlvcSSRQJzj-DNoy8ptHFVGtTWLPlec2caHihXZnwByowTdJlumu6QHuaL2RWLNomGQCXNArmKCX6YpaWeg3Rj8sAzzeKGeH76uDWGVwpaUqwqElN0e_WKv7Rl5AuKE6zbIG8xPfA5-MmHJoB4OZRWpbmDSCiHIDQGAWlBTOJwwDV0_Z1jWib_yKrI2Vvng4uy66BArMAKw2H4tUfxRRIX5-aP1pUTjt4HJaEUcTs1_0UqXi8V--wzUcJyu9K77D
+#   NIQUATSESSION-ANSWERS_1: vvaSPcbHLhmW49O4x44tiqSuX.8LYtpBAilkrQ8JiFD9dJ6g
+
+# version: 2
+# discovery:
+#   allowed-hostnames:
+#     - images-visualizer.gm.com
+#   - images-visualizer.gm.com
+#   - next.co.uk
+#   - xcdn.next.co.uk
+#   - nextdirect.com
+#   - account.nextdirect.com
+#   - account.next.de
+#   - next.de
+#   - www.nextdirect.com
+#   - www.next.de
+#   - www.next.co.uk
+#   - www.next.co.il
+#   - www.next.mx
+#   - www.next.ie
+#   - www.next.sa
+#   - cieun-test.next.co.uk
+# disallowed-hostnames:
+#   - services-uat.test.ecomm.systems.next
+# networkIdleTimeout: 750
+# devicePixelRatio: 2
+#   authorization:
+#     username: 'AutomatedQA'
+#     password: 'Ec0mm3rce20112018'
+# upload:
+#   files: '**/*.{png,jpg,jpeg}'
+#   ignore: ''
+#   stripExtensions: false
+
+version: 2
+percy:
+#   defer-uploads: true
+snapshot:
+  widths:
+    - 1280
+#   minHeight: 1024
+#   percyCSS: |
+#     #vehicle-image {transform: scale(1.49) !important;}
+#   enableJavaScript: true
+#   cliEnableJavaScript: false
+#   disableShadowDOM: true
+discovery:
+  #   allowedHostnames:
+  #     - assets.gm.com
+  #     - gm.demdex.net
+  #     - images-visualizer.gm.com
+  # disallowed-hostnames:
+  #   - sb.scorecardresearch.com
+  #   - cm-supply-web.gammaplatform.com
+  #   - dsum-sec.casalemedia.com
+  networkIdleTimeout: 750
+  concurrency: 2
+# upload:
+#   files: "**/*.{png,jpg,jpeg}"
+#   ignore: ""
+#   stripExtensions: false

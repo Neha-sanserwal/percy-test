@@ -1,0 +1,17 @@
+{
+  "name": "checks-pw-showside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "visual-regression": "percy exec --config .percy.yml -- playwright test --reporter=dot --grep '@visual-test'",
+    "tests": "npx playwright test",
+    "tests-headed": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "Shashank Shukla",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "1.29.2"
+  }
+}
