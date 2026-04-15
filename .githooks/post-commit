@@ -1,3 +1,17 @@
 #!/bin/sh
 echo "[percy] Running Percy visual tests after commit..."
-PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 PERCY_BRANCH=feature/percy-snapshot-capture npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+PR_NUMBER=$(gh pr view "$BRANCH" --json number --jq '.number' 2>/dev/null || echo "")
+
+export PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1
+export PERCY_BRANCH="$BRANCH"
+
+if [ -n "$PR_NUMBER" ]; then
+  export PERCY_PULL_REQUEST="$PR_NUMBER"
+  echo "[percy] Detected PR #$PR_NUMBER for branch $BRANCH"
+else
+  echo "[percy] No PR found for branch $BRANCH"
+fi
+
+npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
