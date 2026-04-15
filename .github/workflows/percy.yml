@@ -19,3 +19,4 @@ jobs:
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
           PERCY_CLIENT_API_URL: https://staging.percy.dev/api/v1
+          PERCY_PULL_REQUEST: ${{ github.event.pull_request.number }}
