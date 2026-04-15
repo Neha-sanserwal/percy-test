@@ -1,11 +1,6 @@
 #!/bin/sh
 echo "[percy] Running Percy visual tests after commit..."
 
-if [ -z "$PERCY_TOKEN" ]; then
-  echo "[percy] Skipped — PERCY_TOKEN is not set. Export it to enable local visual tests."
-  exit 0
-fi
-
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 PR_NUMBER=$(gh pr view "$BRANCH" --json number --jq '.number' 2>/dev/null || echo "")
 
