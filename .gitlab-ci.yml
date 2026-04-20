@@ -6,8 +6,10 @@ percy:
   image: mcr.microsoft.com/playwright:v1.59.1-noble
   variables:
     PERCY_CLIENT_API_URL: https://staging.percy.dev/api/v1
-    GIT_DEPTH: 0
+    GIT_DEPTH: "0"
+    GIT_STRATEGY: clone
   script:
+    - git fetch origin main
     - npm ci
     - npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
   rules:
