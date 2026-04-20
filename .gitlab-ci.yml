@@ -8,9 +8,8 @@ percy:
     PERCY_CLIENT_API_URL: https://staging.percy.dev/api/v1
     PERCY_TARGET_BRANCH: main
     PERCY_BRANCH: $CI_COMMIT_REF_NAME
-    GIT_DEPTH: "0"
-    GIT_STRATEGY: clone
   script:
+    - git fetch --unshallow || true
     - git fetch origin main
     - npm ci
     - npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
