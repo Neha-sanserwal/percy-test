@@ -5,6 +5,7 @@ percy:
   stage: test
   image: mcr.microsoft.com/playwright:v1.59.1-noble
   script:
+    - echo "Token length:$(echo -n $PERCY_TOKEN | wc -c), starts with:$(echo $PERCY_TOKEN | cut -c1-4)"
     - npm ci
     - npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
   variables:
