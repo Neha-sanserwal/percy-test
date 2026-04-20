@@ -3,7 +3,7 @@ stages:
 
 percy:
   stage: test
-  image: mcr.microsoft.com/playwright:v1.52.0-noble
+  image: mcr.microsoft.com/playwright:v1.59.1-noble
   script:
     - npm ci
     - npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
