@@ -4,11 +4,11 @@ snapshots:
   - name: Home 2
     url: http://www.google.com?hl=en
   - name: Home 3
-    url: http://www.google.com?hl=fr
+    url: http://www.example.com
   - name: Home 4
-    url: http://www.google.com?hl=es
+    url: http://www.bing.com
   - name: Home 5
-    url: http://www.google.com?hl=de
+    url: http://duckduckgo.com
   - name: Home 6
     url: http://www.google.com?hl=en
   - name: Home 7
