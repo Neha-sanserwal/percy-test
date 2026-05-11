@@ -2,11 +2,11 @@ const { test } = require('@playwright/test');
 const percySnapshot = require('@percy/playwright');
 
 const pages = [
-  { name: 'Google Home - English', url: 'https://www.example.com' },
-  { name: 'Google Home - French', url: 'https://www.google.com?hl=en' },
-  { name: 'Google Home - Spanish', url: 'https://www.bing.com' },
+  { name: 'Google Home - English', url: 'https://www.google.com?hl=en' },
+  { name: 'Google Home - French', url: 'https://www.example.com' },
+  { name: 'Google Home - Spanish', url: 'https://www.google.com?hl=es' },
   { name: 'Google Home - German', url: 'https://duckduckgo.com' },
-  { name: 'Google Home - Japanese', url: 'https://www.google.com?hl=ja' },
+  { name: 'Google Home - Japanese', url: 'https://www.bing.com' },
 ];
 
 for (const page of pages) {
