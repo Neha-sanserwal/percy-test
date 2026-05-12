@@ -6,7 +6,7 @@ const pages = [
   { name: 'Google Home - French', url: 'https://www.google.com?hl=fr' },
   { name: 'Google Home - Spanish', url: 'https://www.google.com?hl=es' },
   { name: 'Google Home - German', url: 'https://www.google.com?hl=de' },
-  { name: 'Google Home - Japanese', url: 'https://www.google.com?hl=ja' },
+  { name: 'Google Home - Japanese', url: 'https://www.bing.com' },
 ];
 
 for (const page of pages) {
