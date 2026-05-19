@@ -1,0 +1,21 @@
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+stages:
+  - test
+
+percy:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.59.1-noble
+  variables:
+    PERCY_CLIENT_API_URL: https://canary.percy.io/api/v1
+    PERCY_TARGET_BRANCH: main
+    PERCY_BRANCH: $CI_COMMIT_REF_NAME
+  script:
+    - git fetch --unshallow || true
+    - git fetch origin main
+    - npm ci
+    - npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
