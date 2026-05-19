@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "visual-regression": "PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 percy exec --config .percy.yml -- playwright test --reporter=dot --grep '@visual-test'",
-    "snapshot": "PERCY_CLIENT_API_URL=https://staging.percy.dev/api/v1 percy snapshot snapshots.yml",
+    "visual-regression": "PERCY_CLIENT_API_URL=https://canary.percy.dev/api/v1 percy exec --config .percy.yml -- playwright test --reporter=dot --grep '@visual-test'",
+    "snapshot": "PERCY_CLIENT_API_URL=https://canary.percy.dev/api/v1 percy snapshot snapshots.yml",
     "tests": "npx playwright test",
     "tests-headed": "npx playwright test --headed"
   },

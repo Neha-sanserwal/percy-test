@@ -16,5 +16,5 @@ jobs:
       - run: npx percy exec --config .percy.yml -- npx playwright test --reporter=dot --grep '@visual-test'
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-          PERCY_CLIENT_API_URL: https://staging.percy.dev/api/v1
+          PERCY_CLIENT_API_URL: https://canary.percy.dev/api/v1
           PERCY_PULL_REQUEST: ${{ github.event.pull_request.number }}
