@@ -9,7 +9,7 @@ percy:
   stage: test
   image: mcr.microsoft.com/playwright:v1.59.1-noble
   variables:
-    PERCY_CLIENT_API_URL: https://canary.percy.dev/api/v1
+    PERCY_CLIENT_API_URL: https://canary.percy.io/api/v1
     PERCY_TARGET_BRANCH: main
     PERCY_BRANCH: $CI_COMMIT_REF_NAME
   script:
