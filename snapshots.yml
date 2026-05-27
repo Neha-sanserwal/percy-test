@@ -1,4 +1,6 @@
-- name: Homepage
-  url: index.html
-  widths:
-    - 1280
+serve: .
+snapshots:
+  - name: Homepage
+    url: /index.html
+    widths:
+      - 1280
