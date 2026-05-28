@@ -127,6 +127,57 @@ body {
   margin-top: 4px;
 }
 
+.banner {
+  padding: 20px 24px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+.promo-banner {
+  background: #fef3c7;
+  border: 2px solid #f59e0b;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+}
+
+.banner-headline {
+  font-size: 22px;
+  font-weight: 700;
+  color: #92400e;
+}
+
+.banner-subtext {
+  font-size: 16px;
+  color: #b45309;
+  margin-top: 4px;
+}
+
+.banner-overlap-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgba(239, 68, 68, 0.7);
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 8px;
+  pointer-events: none;
+}
+
+.banner-cta {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
 .footer {
   background: #1a1a2e;
   color: #a0aec0;
