@@ -1,0 +1,11 @@
+{
+  "name": "percy-vra-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "percy": "percy snapshot snapshots.yml"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.30.0"
+  }
+}
