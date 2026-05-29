@@ -35,15 +35,6 @@ body {
   color: white;
 }
 
-.promo-banner {
-  background: #7c3aed;
-  color: white;
-  text-align: center;
-  padding: 12px;
-  font-weight: 600;
-  font-size: 14px;
-}
-
 .content {
   max-width: 960px;
   margin: 0 auto;
@@ -71,7 +62,7 @@ body {
 }
 
 .cta-button {
-  background: #10b981;
+  background: #3b82f6;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -82,7 +73,100 @@ body {
 }
 
 .cta-button:hover {
-  background: #059669;
+  background: #2563eb;
+}
+
+.settings-panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 40px;
+}
+
+.settings-panel h3 {
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #1a1a2e;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 12px;
+}
+
+.setting-group {
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f5;
+}
+
+.setting-group:last-child {
+  border-bottom: none;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.setting-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.setting-desc {
+  font-size: 14px;
+  color: #718096;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.setting-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.setting-select {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.quick-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #0369a1;
+  cursor: pointer;
+}
+
+.quick-action-icon {
+  font-size: 14px;
+}
+
+.setting-btn-inline {
+  background: #e2e8f0;
+  color: #4a5568;
+  border: none;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .features {
@@ -94,7 +178,7 @@ body {
 
 .feature-card {
   background: white;
-  border: 3px solid #ef4444;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 28px;
 }
@@ -127,7 +211,7 @@ body {
   display: block;
   font-size: 32px;
   font-weight: 700;
-  color: #f59e0b;
+  color: #3b82f6;
 }
 
 .stat-label {
@@ -142,12 +226,4 @@ body {
   text-align: center;
   padding: 24px;
   font-size: 14px;
-}
-
-.footer-overflow {
-  margin-top: -40px;
-  font-size: 18px;
-  color: #ef4444;
-  position: relative;
-  z-index: 10;
 }

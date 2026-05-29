@@ -16,15 +16,48 @@
     </nav>
   </header>
 
-  <div class="promo-banner">
-    <p>Limited Time: Get 50% off annual plans! Use code PERCY50</p>
-  </div>
-
   <main class="content">
     <section class="hero">
-      <h2>AI-Powered Visual Testing</h2>
+      <h2>Automated Visual Testing</h2>
       <p>Catch visual regressions before they reach production. Review every pixel change with confidence.</p>
       <button class="cta-button">Get Started</button>
+    </section>
+
+    <section class="settings-panel">
+      <h3>Security Settings</h3>
+
+      <div class="setting-group">
+        <div class="setting-row">
+          <span class="setting-label">Two-factor authentication</span>
+          <button class="setting-btn-inline">Setup</button>
+        </div>
+        <p class="setting-desc">Add an extra layer of security to your account.</p>
+        <button class="setting-btn">Add Authenticator app</button>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-row">
+          <span class="setting-label">Multi-factor authentication frequency</span>
+        </div>
+        <p class="setting-desc">Choose how often you want to verify your identity when signing in to your account.</p>
+        <select class="setting-select">
+          <option>Every login</option>
+          <option>Every 30 days</option>
+          <option>Every 90 days</option>
+        </select>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-row">
+          <span class="setting-label">Session timeout</span>
+        </div>
+        <p class="setting-desc">Automatically sign out after a period of inactivity.</p>
+        <select class="setting-select">
+          <option>15 minutes</option>
+          <option>30 minutes</option>
+          <option>1 hour</option>
+        </select>
+      </div>
     </section>
 
     <section class="features">
@@ -60,7 +93,6 @@
 
   <footer class="footer">
     <p>&copy; 2026 Percy VRA Test. All rights reserved.</p>
-    <p class="footer-overflow">This footer text is intentionally broken and overlaps with content above creating a visual bug that was not planned in the PR.</p>
   </footer>
 </body>
 </html>
