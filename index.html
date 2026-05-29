@@ -16,80 +16,86 @@
     </nav>
   </header>
 
-  <main class="content">
-    <section class="data-panel">
-      <h3>Signal Viewer — Session Data</h3>
-      <div class="signal-info">
-        <div class="info-row">
-          <span class="info-label">Started At:</span>
-          <span class="info-value">2026-05-20 14:15:00 UTC</span>
-        </div>
-        <div class="info-row">
-          <span class="info-label">Ended At:</span>
-          <span class="info-value">2026-05-20 15:30:00 UTC</span>
-        </div>
+  <main class="page-layout">
+    <aside class="sidebar collapsed">
+    </aside>
+
+    <div class="main-content">
+      <div class="tab-bar">
+        <span class="tab">Reviews</span>
+        <span class="tab active">Features</span>
+        <span class="tab">Pricing</span>
+        <span class="tab">Alternatives</span>
       </div>
 
-      <div class="channel-list">
-        <div class="channel-row">
-          <span class="channel-name">CH1 — EEG Alpha</span>
-          <div class="waveform wave-blue"></div>
-        </div>
-        <div class="channel-row" style="margin-top: 6px;">
-          <span class="channel-name">CH2 — EEG Beta</span>
-          <div class="waveform wave-green"></div>
-        </div>
-        <div class="channel-row">
-          <span class="channel-name">CH4 — ECG</span>
-          <div class="waveform wave-ecg"></div>
-        </div>
-      </div>
+      <section class="content-section">
+        <h2>Enterprise Feature Comparison</h2>
+        <p class="section-subtitle">Evaluate key features across top-rated solutions for your business needs.</p>
 
-      <div class="annotation-shortcuts">
-        <h4>Annotation Shortcuts</h4>
-        <div class="shortcut-list">
-          <span class="shortcut-item">S — Seizure</span>
-          <span class="shortcut-item">A — Artifact</span>
-          <span class="shortcut-item">N — Normal</span>
-          <span class="shortcut-item">M — Movement</span>
-          <span class="shortcut-item">R — REM</span>
+        <div class="features-insert">
+          <h3>Key Features</h3>
+          <ul class="feature-list">
+            <li>Advanced reporting and analytics</li>
+            <li>Custom workflows and automation</li>
+            <li>Role-based access control</li>
+            <li>API integrations</li>
+          </ul>
         </div>
-      </div>
-    </section>
 
-    <section class="features">
-      <div class="feature-card">
-        <h3>Smart Diffing</h3>
-        <p>AI-powered visual comparisons that highlight meaningful changes.</p>
-      </div>
-      <div class="feature-card">
-        <h3>Cross-Browser</h3>
-        <p>Test across Chrome, Firefox, Safari and more in parallel.</p>
-      </div>
-      <div class="feature-card">
-        <h3>CI Integration</h3>
-        <p>Seamlessly integrates with GitHub, GitLab, and Bitbucket.</p>
-      </div>
-    </section>
+        <div class="form-container">
+          <h3>Request a Demo</h3>
+          <div class="form-field">
+            <label>Full Name</label>
+            <input type="text" class="form-input" placeholder="John Doe">
+          </div>
+          <div class="form-field">
+            <label>Work Email</label>
+            <input type="email" class="form-input" placeholder="john@company.com">
+          </div>
+          <div class="form-field">
+            <label>Company Size</label>
+            <select class="form-select">
+              <option>1-50 employees</option>
+              <option>51-200 employees</option>
+              <option>201-1000 employees</option>
+            </select>
+          </div>
+          <button class="form-cta">Get Started</button>
+        </div>
 
-    <section class="stats">
-      <div class="stat">
-        <span class="stat-number">99.9%</span>
-        <span class="stat-label">Uptime</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">500K+</span>
-        <span class="stat-label">Snapshots/day</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">2,000+</span>
-        <span class="stat-label">Teams</span>
-      </div>
-    </section>
+        <div class="pricing-section">
+          <h3>Pricing Plans</h3>
+          <div class="pricing-grid">
+            <div class="price-card">
+              <h4>Starter</h4>
+              <p class="price">$29/mo</p>
+              <p class="price-desc">For small teams</p>
+            </div>
+            <div class="price-card featured">
+              <h4>Professional</h4>
+              <p class="price">$99/mo</p>
+              <p class="price-desc">For growing teams</p>
+            </div>
+            <div class="price-card">
+              <h4>Enterprise</h4>
+              <p class="price">Custom</p>
+              <p class="price-desc">For large orgs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 Percy VRA Test. All rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2026 Percy VRA Test. All rights reserved.</p>
+      <div class="social-icons">
+        <span class="social-icon-placeholder"></span>
+        <span class="social-icon-placeholder"></span>
+        <span class="social-icon-placeholder"></span>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

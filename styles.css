@@ -19,183 +19,224 @@ body {
   align-items: center;
 }
 
-.header h1 {
-  font-size: 20px;
-  font-weight: 600;
-}
+.header h1 { font-size: 20px; font-weight: 600; }
+.nav-link { color: #a0aec0; text-decoration: none; margin-left: 24px; font-size: 14px; }
 
-.nav-link {
-  color: #a0aec0;
-  text-decoration: none;
-  margin-left: 24px;
-  font-size: 14px;
-}
-
-.content {
-  max-width: 960px;
+.page-layout {
+  display: flex;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 40px 24px;
-}
-
-.data-panel {
-  background: #111827;
-  color: #e5e7eb;
-  border-radius: 12px;
   padding: 24px;
-  margin-bottom: 40px;
+  gap: 24px;
 }
 
-.data-panel h3 {
-  font-size: 18px;
-  margin-bottom: 16px;
-  color: #f9fafb;
-}
-
-.signal-info {
-  display: flex;
-  gap: 32px;
-  margin-bottom: 20px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #374151;
-}
-
-.info-row {
-  font-size: 13px;
-}
-
-.info-label {
-  color: #9ca3af;
-  margin-right: 8px;
-}
-
-.info-value {
-  color: #d1d5db;
-  font-weight: 500;
-}
-
-.channel-list {
-  margin-bottom: 20px;
-}
-
-.channel-row {
-  display: flex;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid #1f2937;
-}
-
-.channel-name {
-  width: 160px;
-  font-size: 13px;
-  color: #9ca3af;
+.sidebar {
+  width: 200px;
   flex-shrink: 0;
 }
 
-.waveform {
-  flex: 1;
-  height: 32px;
-  border-radius: 4px;
-}
-
-.wave-blue {
-  background: repeating-linear-gradient(90deg, transparent 0px, #3b82f6 2px, transparent 4px, transparent 8px);
-}
-
-.wave-green {
-  background: repeating-linear-gradient(90deg, transparent 0px, #10b981 2px, transparent 4px, transparent 8px);
-}
-
-.wave-red {
-  background: repeating-linear-gradient(90deg, transparent 0px, #ef4444 2px, transparent 4px, transparent 10px);
-}
-
-.wave-empty {
-  background: #1f2937;
-}
-
-.wave-ecg {
-  background: repeating-linear-gradient(90deg, transparent 0px, #f59e0b 2px, transparent 4px, transparent 6px);
-}
-
-.annotation-shortcuts {
-  padding-top: 12px;
-  border-top: 1px solid #374151;
-}
-
-.annotation-shortcuts h4 {
+.sidebar h4 {
   font-size: 14px;
-  color: #9ca3af;
-  margin-bottom: 8px;
-}
-
-.shortcut-list {
-  display: flex;
-  gap: 16px;
-}
-
-.shortcut-item {
-  font-size: 12px;
   color: #6b7280;
-  background: #1f2937;
-  padding: 4px 10px;
-  border-radius: 4px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.features {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  padding: 40px 0;
+.sidebar-nav {
+  list-style: none;
 }
 
-.feature-card {
-  background: white;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 28px;
+.sidebar-item {
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #4a5568;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 4px;
 }
 
-.feature-card h3 {
-  font-size: 18px;
+.sidebar-item.active {
+  background: #ede9fe;
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.tab-bar {
+  display: flex;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 24px;
+}
+
+.tab {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab.active {
+  color: #7c3aed;
+  border-bottom-color: #7c3aed;
+}
+
+.content-section h2 {
+  font-size: 24px;
   margin-bottom: 8px;
   color: #1a1a2e;
 }
 
-.feature-card p {
+.section-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 28px;
+}
+
+.form-container {
+  background: white;
+  border: 2px solid #c4b5fd;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 32px;
+}
+
+.form-container h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #1a1a2e;
+}
+
+.form-field {
+  margin-bottom: 16px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+
+.form-input, .form-select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #c4b5fd;
+  border-radius: 8px;
   font-size: 14px;
-  color: #718096;
-  line-height: 1.6;
+  color: #1a1a2e;
+  background: #faf5ff;
 }
 
-.stats {
-  display: flex;
-  justify-content: center;
-  gap: 64px;
-  padding: 48px 0;
-  border-top: 1px solid #e2e8f0;
+.form-cta {
+  background: #7c3aed;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
 }
 
-.stat {
+.pricing-section {
+  margin-bottom: 32px;
+}
+
+.pricing-section h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.price-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
   text-align: center;
 }
 
-.stat-number {
-  display: block;
-  font-size: 32px;
-  font-weight: 700;
-  color: #3b82f6;
+.price-card.featured {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 1px #7c3aed;
 }
 
-.stat-label {
-  font-size: 14px;
-  color: #718096;
-  margin-top: 4px;
-}
+.price-card h4 { font-size: 16px; color: #1a1a2e; margin-bottom: 8px; }
+.price { font-size: 28px; font-weight: 700; color: #7c3aed; margin-bottom: 4px; }
+.price-desc { font-size: 13px; color: #6b7280; }
 
 .footer {
   background: #1a1a2e;
   color: #a0aec0;
-  text-align: center;
-  padding: 24px;
+  padding: 24px 32px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p { font-size: 14px; }
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar.collapsed {
+  width: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.features-insert {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.features-insert h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #1a1a2e;
+}
+
+.feature-list {
+  list-style: disc;
+  padding-left: 20px;
   font-size: 14px;
+  color: #4a5568;
+  line-height: 1.8;
+}
+
+.social-icon-placeholder {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #374151;
+  border-radius: 4px;
 }
