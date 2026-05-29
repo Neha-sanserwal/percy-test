@@ -3,20 +3,20 @@
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; background: #f8fafc; }
 
 /* Header */
-.header { background: #7c3aed; padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; }
-.header .logo { color: #fff; font-size: 22px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.header { background: #7c3aed; padding: 24px 32px; display: flex; align-items: center; justify-content: space-between; }
+.header .logo { color: #fff; font-size: 22px; font-weight: 700; display: flex; align-items: center; gap: 8px; margin-left: 4px; }
 .header .logo-icon { font-size: 24px; }
 .header nav a { color: rgba(255,255,255,0.8); text-decoration: none; margin-left: 24px; font-size: 14px; }
 .header nav a:hover { color: #fff; }
 
 /* Promo Card */
-.promo-card { background: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa); color: #fff; padding: 40px 32px; text-align: center; margin: 24px auto; max-width: 1080px; border-radius: 16px; }
+.promo-card { background: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa); color: #fff; padding: 40px 32px; text-align: center; margin-top: -8px; margin-left: auto; margin-right: auto; margin-bottom: 16px; max-width: 1080px; border-radius: 16px; }
 .promo-card h2 { font-size: 28px; margin-bottom: 12px; }
 .promo-card p { font-size: 16px; opacity: 0.9; margin-bottom: 20px; }
 .promo-btn { display: inline-block; background: #fff; color: #7c3aed; padding: 12px 32px; border-radius: 8px; font-weight: 600; font-size: 14px; text-decoration: none; border: none; cursor: pointer; }
 
 /* Location Section */
-.location-section { max-width: 1080px; margin: 24px auto; padding: 0 24px; }
+.location-section { max-width: 1080px; margin: 24px auto; margin-top: -8px; padding: 0 24px; }
 .location-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: #1a1a2e; }
 .location-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .location-item { background: #fff; border: 2px solid #e5e7eb; border-radius: 10px; padding: 16px; text-align: center; font-size: 14px; color: #4a5568; cursor: pointer; }
@@ -26,7 +26,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .referral-section { max-width: 1080px; margin: 32px auto; padding: 0 24px; }
 .referral-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; color: #1a1a2e; }
 .referral-list { background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); overflow: hidden; }
-.referral-item { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; border-bottom: 1px solid #f1f5f9; }
+.referral-item { display: flex; align-items: center; justify-content: space-between; padding: 8px 20px; border-bottom: 1px solid #f1f5f9; }
 .referral-item:last-child { border-bottom: none; }
 .referral-name { font-size: 14px; color: #1a1a2e; font-weight: 500; }
 .referral-badge { font-size: 12px; padding: 4px 12px; border-radius: 12px; font-weight: 600; }
