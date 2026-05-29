@@ -7,60 +7,68 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header purple-header">
-    <div class="header-logo">
-      <span class="logo-icon">🎲</span>
-      <h1>ReferralApp</h1>
-    </div>
+  <header class="header">
+    <h1>Percy Visual Review App</h1>
     <nav>
-      <a href="#" class="nav-link">Dashboard</a>
-      <a href="#" class="nav-link">Referrals</a>
-      <a href="#" class="nav-link">Settings</a>
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">Features</a>
+      <a href="#" class="nav-link">Pricing</a>
     </nav>
   </header>
 
   <main class="content">
-    <section class="promo-card">
-      <h2>Invite Friends, Earn Rewards!</h2>
-      <p>Share your referral link and earn $10 for every friend who signs up.</p>
-      <button class="cta-button">Share Now</button>
+    <section class="data-panel">
+      <h3>Signal Viewer — Session Data</h3>
+      <div class="signal-info">
+        <div class="info-row">
+          <span class="info-label">Started At:</span>
+          <span class="info-value">2026-05-20 14:15:00 UTC</span>
+        </div>
+        <div class="info-row">
+          <span class="info-label">Ended At:</span>
+          <span class="info-value">2026-05-20 15:30:00 UTC</span>
+        </div>
+      </div>
+
+      <div class="channel-list">
+        <div class="channel-row">
+          <span class="channel-name">CH1 — EEG Alpha</span>
+          <div class="waveform wave-blue"></div>
+        </div>
+        <div class="channel-row" style="margin-top: 6px;">
+          <span class="channel-name">CH2 — EEG Beta</span>
+          <div class="waveform wave-green"></div>
+        </div>
+        <div class="channel-row">
+          <span class="channel-name">CH4 — ECG</span>
+          <div class="waveform wave-ecg"></div>
+        </div>
+      </div>
+
+      <div class="annotation-shortcuts">
+        <h4>Annotation Shortcuts</h4>
+        <div class="shortcut-list">
+          <span class="shortcut-item">S — Seizure</span>
+          <span class="shortcut-item">A — Artifact</span>
+          <span class="shortcut-item">N — Normal</span>
+          <span class="shortcut-item">M — Movement</span>
+          <span class="shortcut-item">R — REM</span>
+        </div>
+      </div>
     </section>
 
-    <section class="location-modal">
-      <h3>Select a location</h3>
-      <div class="location-grid">
-        <div class="location-item selected">New York</div>
-        <div class="location-item">Los Angeles</div>
-        <div class="location-item">Chicago</div>
-        <div class="location-item">Houston</div>
+    <section class="features">
+      <div class="feature-card">
+        <h3>Smart Diffing</h3>
+        <p>AI-powered visual comparisons that highlight meaningful changes.</p>
       </div>
-    </section>
-
-    <section class="referral-list">
-      <h3>Your Referrals</h3>
-      <div class="referral-item">
-        <span class="referral-name">Alice Johnson</span>
-        <span class="referral-status completed">Completed</span>
+      <div class="feature-card">
+        <h3>Cross-Browser</h3>
+        <p>Test across Chrome, Firefox, Safari and more in parallel.</p>
       </div>
-      <div class="referral-item">
-        <span class="referral-name">Bob Smith</span>
-        <span class="referral-status pending">Pending</span>
-      </div>
-      <div class="referral-item">
-        <span class="referral-name">Carol Davis</span>
-        <span class="referral-status completed">Completed</span>
-      </div>
-      <div class="referral-item">
-        <span class="referral-name">Dan Wilson</span>
-        <span class="referral-status pending">Pending</span>
-      </div>
-      <div class="referral-item">
-        <span class="referral-name">Eva Martinez</span>
-        <span class="referral-status expired">Expired</span>
-      </div>
-      <div class="referral-item">
-        <span class="referral-name">Frank Lee</span>
-        <span class="referral-status completed">Completed</span>
+      <div class="feature-card">
+        <h3>CI Integration</h3>
+        <p>Seamlessly integrates with GitHub, GitLab, and Bitbucket.</p>
       </div>
     </section>
 
