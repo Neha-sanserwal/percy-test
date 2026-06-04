@@ -4,8 +4,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 
 /* Header */
 .header { background: #1a1a2e; padding: 16px 32px; display: flex; align-items: center; justify-content: space-between; }
+.header--brand { background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); }
 .header .logo { color: #fff; font-size: 20px; font-weight: 700; }
+.header .logo--new { font-size: 24px; letter-spacing: 0.5px; }
 .header nav a { color: #94a3b8; text-decoration: none; margin-left: 24px; font-size: 14px; }
+.header--brand nav a { color: #f5f3ff; }
 .header nav a:hover { color: #fff; }
 
 /* Layout */
@@ -48,4 +51,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 
 /* Footer */
 .footer { background: #1a1a2e; color: #94a3b8; padding: 32px; text-align: center; font-size: 14px; }
+.footer--shifted { padding-top: 48px; padding-bottom: 16px; }
 .social-icons { margin-top: 12px; display: flex; justify-content: center; gap: 16px; font-size: 20px; }
+.social-icons--misaligned { justify-content: flex-end; gap: 32px; padding-right: 48px; }
