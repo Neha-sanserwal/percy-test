@@ -135,10 +135,9 @@ body {
 }
 
 .promo-banner {
-  background: #fef3c7;
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
   border: 2px solid #f59e0b;
   position: relative;
-  height: 45px;
   overflow: hidden;
 }
 
@@ -167,15 +166,22 @@ body {
 }
 
 .banner-cta {
-  background: #f59e0b;
+  background: #d97706;
   color: white;
   border: none;
-  padding: 10px 24px;
-  font-size: 14px;
-  font-weight: 600;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 700;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 12px;
+}
+
+.banner-terms {
+  font-size: 11px;
+  color: #92400e;
+  margin-top: 6px;
+  opacity: 0.7;
 }
 
 .footer {
