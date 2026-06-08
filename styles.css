@@ -28,7 +28,7 @@ body {
   color: #a0aec0;
   text-decoration: none;
   margin-left: 24px;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .nav-link:hover {
@@ -62,7 +62,7 @@ body {
 }
 
 .cta-button {
-  background: #3b82f6;
+  background: #22c55e;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -73,7 +73,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #2563eb;
+  background: #16a34a;
 }
 
 .features {
@@ -86,7 +86,7 @@ body {
 .feature-card {
   background: white;
   border: 1px solid #e2e8f0;
-  border-radius: 12px;
+  border-radius: 0;
   padding: 28px;
 }
 
@@ -118,7 +118,7 @@ body {
   display: block;
   font-size: 32px;
   font-weight: 700;
-  color: #e53e3e;
+  color: #3b82f6;
 }
 
 .stat-label {
@@ -186,7 +186,7 @@ body {
 
 .footer {
   background: #1a1a2e;
-  color: #a0aec0;
+  color: #1a1a2e;
   text-align: center;
   padding: 24px;
   font-size: 14px;
