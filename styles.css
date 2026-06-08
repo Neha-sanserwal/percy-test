@@ -46,8 +46,10 @@ body {
   padding: 60px 0;
 }
 
+/* BBox 2 — hero heading: intended copy change (in HTML) + UNINTENDED font change */
 .hero h2 {
-  font-size: 36px;
+  font-size: 30px;
+  font-weight: 800;
   margin-bottom: 16px;
   color: #1a1a2e;
 }
@@ -61,8 +63,9 @@ body {
   margin-right: auto;
 }
 
+/* BBox 1 — CTA button: INTENDED recolor + UNINTENDED shift + BUG clipped label */
 .cta-button {
-  background: #3b82f6;
+  background: #22c55e;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -70,10 +73,13 @@ body {
   font-weight: 600;
   border-radius: 8px;
   cursor: pointer;
+  margin-left: 40px;
+  max-height: 18px;
+  overflow: hidden;
 }
 
 .cta-button:hover {
-  background: #2563eb;
+  background: #16a34a;
 }
 
 .features {
@@ -96,6 +102,15 @@ body {
   color: #1a1a2e;
 }
 
+/* BBox 3 — first feature card: INTENDED heading recolor + BUG invisible paragraph */
+.feature-card:first-child h3 {
+  color: #22c55e;
+}
+
+.feature-card:first-child p {
+  color: white;
+}
+
 .feature-card p {
   font-size: 14px;
   color: #718096;
@@ -114,11 +129,12 @@ body {
   text-align: center;
 }
 
+/* BBox 4 — stats numbers: INTENDED recolor (red -> green) */
 .stat-number {
   display: block;
   font-size: 32px;
   font-weight: 700;
-  color: #e53e3e;
+  color: #22c55e;
 }
 
 .stat-label {
@@ -134,9 +150,10 @@ body {
   margin: 32px 0;
 }
 
+/* BBox 5 — promo banner: UNINTENDED recolor (amber -> blue) */
 .promo-banner {
-  background: linear-gradient(135deg, #fef3c7, #fde68a);
-  border: 2px solid #f59e0b;
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  border: 2px solid #3b82f6;
   position: relative;
   overflow: hidden;
 }
@@ -184,9 +201,10 @@ body {
   opacity: 0.7;
 }
 
+/* BBox 6 — footer: BUG invisible text (color == background) */
 .footer {
   background: #1a1a2e;
-  color: #a0aec0;
+  color: #1a1a2e;
   text-align: center;
   padding: 24px;
   font-size: 14px;
