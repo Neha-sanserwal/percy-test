@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  background: #1a1a2e;
+  background: #15803d;
   color: white;
   padding: 16px 32px;
   display: flex;
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link {
-  color: #a0aec0;
+  color: #22c55e;
   text-decoration: none;
   margin-left: 24px;
   font-size: 11px;
@@ -49,7 +49,7 @@ body {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 16px;
-  color: #1a1a2e;
+  color: #22c55e;
 }
 
 .hero p {
@@ -62,7 +62,7 @@ body {
 }
 
 .cta-button {
-  background: #3b82f6;
+  background: #22c55e;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -73,7 +73,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #2563eb;
+  background: #16a34a;
 }
 
 .features {
@@ -94,6 +94,11 @@ body {
   font-size: 18px;
   margin-bottom: 8px;
   color: #1a1a2e;
+}
+
+/* Smart Diffing (first feature card) heading — brand green */
+.feature-card:first-child h3 {
+  color: #22c55e;
 }
 
 .feature-card p {
@@ -118,7 +123,7 @@ body {
   display: block;
   font-size: 32px;
   font-weight: 700;
-  color: #e53e3e;
+  color: #22c55e;
 }
 
 .stat-label {
