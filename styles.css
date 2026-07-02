@@ -62,7 +62,7 @@ body {
 }
 
 .cta-button {
-  background: #3b82f6;
+  background: #6366f1;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -73,7 +73,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #2563eb;
+  background: #4f46e5;
 }
 
 .features {
@@ -93,7 +93,7 @@ body {
 .feature-card h3 {
   font-size: 18px;
   margin-bottom: 8px;
-  color: #1a1a2e;
+  color: #6366f1;
 }
 
 .feature-card p {
