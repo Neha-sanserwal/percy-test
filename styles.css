@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  background: #1a1a2e;
+  background: #15803d;
   color: white;
   padding: 16px 32px;
   display: flex;
@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link {
-  color: #a0aec0;
+  color: #22c55e;
   text-decoration: none;
   margin-left: 24px;
   font-size: 11px;
@@ -49,7 +49,7 @@ body {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 16px;
-  color: #1a1a2e;
+  color: #22c55e;
 }
 
 .hero p {
