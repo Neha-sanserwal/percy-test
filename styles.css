@@ -73,7 +73,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #4f46e5;
+  background: #2563eb;
 }
 
 .features {
@@ -93,7 +93,7 @@ body {
 .feature-card h3 {
   font-size: 18px;
   margin-bottom: 8px;
-  color: #6366f1;
+  color: #1a1a2e;
 }
 
 .feature-card p {
