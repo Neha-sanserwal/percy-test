@@ -49,7 +49,7 @@ body {
 .hero h2 {
   font-size: 36px;
   margin-bottom: 16px;
-  color: #1a1a2e;
+  color: #15803d;
 }
 
 .hero p {
@@ -62,7 +62,7 @@ body {
 }
 
 .cta-button {
-  background: #3b82f6;
+  background: #16a34a;
   color: white;
   border: none;
   padding: 14px 36px;
@@ -73,7 +73,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #2563eb;
+  background: #15803d;
 }
 
 .features {
